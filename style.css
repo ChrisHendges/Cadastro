@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: "Kumbh Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(0, 100%, 74%) ;
+  background-image: url("imagens/bg-intro-desktop.png");
+  color: white;
+  padding: 20px;
+}
+
+.container{
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 20px;
+}
+
+.titulo{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.topCard{
+  background-color: hsl(248, 32%, 49%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;  
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.topCard p {
+  text-align: center;
+}
+
+.container2 {
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.form input{
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #BEBDBF;
+  border-radius: 5px;
+}
+
+
+
+.btn-last button{
+  background-color: hsl(154, 59%, 51%);
+  height: 40px;
+  width: 400px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  color: white;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+footer{
+  text-align: center;
+  font-size: 10px;
+  color: #D9D7E1;
+}
+
+footer span {
+  color: #f3a9a8;
+  font-weight: bold;
+}
